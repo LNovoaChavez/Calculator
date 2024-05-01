@@ -1,0 +1,20 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif; /* Esto ayuda a calcular correctamente el tamaño total de los elementos */
+}
+
+ul, ol, li {
+    list-style: none;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-size: initial; /* Restablecer el tamaño de fuente a su valor inicial */
+    font-weight: normal; /* Restablecer el peso de fuente a normal */
+}
+
+a {
+   text-decoration: none; 
+   color: white;
+}
